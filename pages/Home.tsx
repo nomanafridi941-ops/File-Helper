@@ -134,11 +134,11 @@ const Home: React.FC = () => {
       </section>
 
       {/* Features / Privacy Section */}
-      <section id="privacy" className="bg-slate-50 mt-32 py-20">
+      <section id="privacy" className="bg-slate-50 dark:bg-slate-900 mt-32 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Privacy First, Always.</h2>
-            <p className="text-slate-600 mb-12">
+            <h2 className="text-3xl font-bold mb-6 text-slate-900 dark:text-slate-100">Privacy First, Always.</h2>
+            <p className="text-slate-600 dark:text-slate-300 mb-12">
               Unlike other file converters, FileHelper.xyz doesn't upload your sensitive documents to any server. 
               We use modern web technologies to process your files right in your browser.
             </p>

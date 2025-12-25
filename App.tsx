@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ToolPage from './pages/ToolPage';
+import { Analytics } from "@vercel/analytics/react";
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = React.useState(() => {
@@ -33,6 +34,7 @@ const App: React.FC = () => {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </Router>
   );
 };
